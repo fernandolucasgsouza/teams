@@ -4,12 +4,13 @@ import { HeaderComponent } from "@components/HeaderComponent";
 
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import { HighlightComponent } from "@components/HighlightComponet";
 
 export function GroupScreen() {
   return (
     <Container>
       <HeaderComponent />
-      <Title>Groups</Title>
+      <HighlightComponent title="Turmas" subtitle="Jogue com a sua turma" />
     </Container>
   );
 }
