@@ -1,5 +1,4 @@
-import { StatusBar } from "expo-status-bar";
-import { Container, Title } from "./styles";
+import { Container } from "./styles";
 import { HeaderComponent } from "@components/HeaderComponent";
 
 import { HighlightComponent } from "@components/HighlightComponet";
