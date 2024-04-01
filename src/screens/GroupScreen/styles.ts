@@ -5,7 +5,7 @@ export const Container = styled.View`
   background-color: ${({ theme }) => theme.COLORS.DARK};
   align-items: center;
   padding-top: 32px;
-  //justify-content: center;
+  justify-content: center;
 `;
 export const Title = styled.Text`
   color: ${({ theme }) => theme.COLORS.WHITE};
