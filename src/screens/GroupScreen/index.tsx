@@ -6,6 +6,7 @@ import { HeaderComponent } from "@components/HeaderComponent";
 import { HighlightComponent } from "@components/HighlightComponet";
 import { GroupCardComponent } from "@components/GroupCardComponent";
 import { EmpytComponent } from "@components/EmpytComponent";
+import { ButtonComponent } from "@components/ButtonComponent";
 
 export function GroupScreen() {
   const [groupsState, setGroupsState] = useState(["Lorem ipsum 1"]);
@@ -31,6 +32,7 @@ export function GroupScreen() {
           <EmpytComponent message="Que tal cadastrar uma turma?" />
         )}
       />
+      <ButtonComponent title="Lorem Impsum"/>
     </Container>
   );
 }
