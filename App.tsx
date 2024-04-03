@@ -7,7 +7,7 @@ import { StatusBar } from "react-native";
 import { ThemeProvider } from "styled-components";
 
 import theme from "./src/theme";
-import { GroupScreen } from "@screens/GroupScreen";
+import { NewGroupScreen } from "@screens/NewGroupScreen";
 import { LoadingComponent } from "@components/LoadingComponent";
 
 export default function App() {
@@ -20,7 +20,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       ></StatusBar>
-      {fontsLoaded ? <GroupScreen /> : <LoadingComponent />}
+      {fontsLoaded ? <NewGroupScreen /> : <LoadingComponent />}
     </ThemeProvider>
   );
 }
