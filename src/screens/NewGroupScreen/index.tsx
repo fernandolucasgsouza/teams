@@ -11,7 +11,7 @@ import { Container, Content } from "./styles";
 export function NewGroupScreen() {
   return (
     <Container>
-      <HeaderComponent />
+      <HeaderComponent showBackButton />
       <Content>
         <Icon
           name="users"

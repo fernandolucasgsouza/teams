@@ -1,8 +1,9 @@
 import { TouchableOpacity } from "react-native";
 import styled from "styled-components/native";
+import Icons from "@expo/vector-icons/FontAwesome6";
 
 export const Container = styled(TouchableOpacity)`
-  width: 96%;
+  width: 100%;
   height: 90px;
   background-color: ${({ theme }) => theme.COLORS.GRAY_500};
   border-radius: 6px;
@@ -12,8 +13,14 @@ export const Container = styled(TouchableOpacity)`
   margin-bottom: 12px;
 `;
 export const Title = styled.Text`
-  font-family:${({theme})=>theme.FONT_FAMILY.REGULAR};
-  color:${({theme})=>theme.COLORS.GRAY_200};
-  font-size: ${({theme})=>theme.FONT_SIZE.MD}px;
+  font-family: ${({ theme }) => theme.FONT_FAMILY.REGULAR};
+  color: ${({ theme }) => theme.COLORS.GRAY_200};
+  font-size: ${({ theme }) => theme.FONT_SIZE.MD}px;
   margin-left: 20px;
-  `
+`;
+export const UsersIcon = styled(Icons).attrs({
+  name: "users",
+  size: 32,
+})`
+  color: ${({ theme }) => theme.COLORS.GREEN_700};
+`;

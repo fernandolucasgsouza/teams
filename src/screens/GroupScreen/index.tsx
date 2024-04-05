@@ -26,13 +26,13 @@ export function GroupScreen() {
           <GroupCardComponent title={item} onPress={onPress} />
         )}
         showsVerticalScrollIndicator={false}
-        style={{ width: "100%", paddingLeft: 20 }}
-        contentContainerStyle={!groupsState.length && { flex: 1}}
+        style={{ width: "100%" }}
+        contentContainerStyle={!groupsState.length && { flex: 1 }}
         ListEmptyComponent={() => (
           <EmpytComponent message="Que tal cadastrar uma turma?" />
         )}
       />
-      <ButtonComponent title="Lorem Impsum"/>
+      <ButtonComponent title="Lorem Impsum" />
     </Container>
   );
 }
