@@ -1,6 +1,5 @@
 import { TouchableOpacity } from "react-native";
 import styled from "styled-components/native";
-import Icons from "@expo/vector-icons/FontAwesome6";
 
 export const Container = styled(TouchableOpacity)`
   width: 100%;
@@ -18,9 +17,4 @@ export const Title = styled.Text`
   font-size: ${({ theme }) => theme.FONT_SIZE.MD}px;
   margin-left: 20px;
 `;
-export const UsersIcon = styled(Icons).attrs({
-  name: "users",
-  size: 32,
-})`
-  color: ${({ theme }) => theme.COLORS.GREEN_700};
-`;
+

@@ -1,11 +1,9 @@
-import Icon from "@expo/vector-icons/FontAwesome6";
-
 import { InputComponent } from "@components/InputComponent";
 import { HeaderComponent } from "@components/HeaderComponent";
 import { ButtonComponent } from "@components/ButtonComponent";
 import { HighlightComponent } from "@components/HighlightComponet";
 
-import theme from "@theme/index";
+import { UsersIcon } from "@assets/styles";
 import { Container, Content } from "./styles";
 
 export function NewGroupScreen() {
@@ -13,16 +11,12 @@ export function NewGroupScreen() {
     <Container>
       <HeaderComponent showBackButton />
       <Content>
-        <Icon
-          name="users"
-          size={theme.FONT_SIZE.XL2}
-          color={theme.COLORS.GREEN_700}
-        />
+        <UsersIcon />
         <HighlightComponent
           title="Nova Turma"
           subtitle="Crie uma turma para adicionar as pessoas."
         />
-        <InputComponent />
+        <InputComponent placeholder="Nome da turma"/>
         <ButtonComponent title="Criar Turma" />
       </Content>
     </Container>

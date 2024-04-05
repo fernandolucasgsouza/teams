@@ -11,6 +11,7 @@
       "@theme/*":["./src/theme/*"],
       "@storage/*":["./src/storage/*"],
       "@utils/*":["./src/utils/*"],
+      "@assets":["./assets/styles.ts"],
     }
   },
 }
