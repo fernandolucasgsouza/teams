@@ -12,6 +12,8 @@
       "@storage/*":["./src/storage/*"],
       "@utils/*":["./src/utils/*"],
       "@assets":["./assets/styles.ts"],
+      "@@types":["src/types/index.ts"],
+      "@constants":["./src/constants/index.ts"],
     }
   },
 }
