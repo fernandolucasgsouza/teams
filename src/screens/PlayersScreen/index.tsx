@@ -9,7 +9,7 @@ export function PlayersScreen(){
         <Container>
             <HeaderComponent showBackButton/>
             <HighlightComponent title="Player" subtitle="Playyer Lorem Ipsum"/>
-            <ButtonIconComponent />
+            <ButtonIconComponent icon="home" />
         </Container>
     )
 }
